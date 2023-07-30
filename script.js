@@ -24,7 +24,7 @@ function getComputerChoice() {
     }
 }
 
-function playRound(computerSelection, playerSelection) {
+function playRound(playerSelection, computerSelection) {
     if (gameOver == false) {
         if (computerSelection == 'Rock' && playerSelection == 'Paper' || computerSelection == 'Paper' && playerSelection == 'Scissors' || computerSelection == 'Scissors' && playerSelection == 'Rock') {
             // Player wins
