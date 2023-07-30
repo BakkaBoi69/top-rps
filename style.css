@@ -19,3 +19,7 @@ body {
     display: flex;
     gap: 69px;
 }
+
+.restart {
+    display: none;
+}
